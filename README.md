@@ -8,7 +8,10 @@ So I created my own iOS sample project here. Also, there are some tips that are 
 
 ## When Model
 > IceCream supports Realm 10. But not all. You can't used many new features like `ObjectId` and `@@Persisted`.
+> 
 > Also, there are limitation when you are using `primaryKey`.
+> 
+> IceCream request you to provide `primaryKey` in every model class.
 
 ```swift
 // For more: https://developer.apple.com/documentation/cloudkit/ckrecord/id/1500975-init
